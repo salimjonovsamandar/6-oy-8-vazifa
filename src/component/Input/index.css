@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .Card {
+    width: 550px;
+    background-color: aqua;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 20px;
+  }
+  input[type="text"] {
+    padding: 15px;
+    width: 75%;
+    border-radius: 20px;
+    border: 1px solid aqua;
+    transition: all 0.5s;
+    font-size: 16px;
+  }
+  
+  .Button {
+    height: 43px;
+    width: 110px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 10px;
+    background-color: blue;
+    transition: all 0.5s;
+    color: white;
+  }
+  .Button:hover {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+  }
+  
+  .list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin-top: 10px;
+  }
+  input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+  }
+  .btn{
+    margin-left: auto;
+    display: flex;
+  }
+  button {
+    padding: 5px;
+    margin-left: 5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
